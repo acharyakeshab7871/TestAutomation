@@ -1,0 +1,11 @@
+name: TestOne
+
+on: [push]
+
+jobs:
+  print-message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Message
+      run: echo "Hello, world!"
